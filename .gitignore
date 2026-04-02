@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# env files with real credentials - never commit these
+server/.env
+.env
+*.env
+
+# build output
+client/dist/
+client/build/
+
+# misc
+.DS_Store
+*.log
+npm-debug.log*
+
+# editor config
+.claude/
